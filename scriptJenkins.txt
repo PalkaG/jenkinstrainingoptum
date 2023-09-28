@@ -20,9 +20,9 @@ agent any
      }
    }
    stage('Interactive input') {
-    steps (
+    steps {
      input 'Tell me your name'
-   )
+   }
   }
   }
 }
